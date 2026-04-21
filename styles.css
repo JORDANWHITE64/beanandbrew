@@ -1,0 +1,650 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+html{
+    margin:0;
+    padding:0;
+
+}
+body{
+    font-family:Montserrat;
+   
+    background-color: #606C38;
+    color:#FEFAE0;
+    margin:0;
+    padding:0;
+
+    
+}
+div{
+    margin:0;
+    padding:0;
+
+}
+
+section{
+    margin: 0;
+    padding:0;
+    
+}
+ #coffeevideo{
+     
+     align-self: center;
+ }
+
+img{
+    max-width:100%;
+     height:auto;
+     display:block;
+}
+/* repsonsiveness*/
+
+.videoWrapper{
+    
+    position: relative;
+    max-width: 800px;
+    width:100%;
+    margin:20px auto;
+}
+ .videoWrapper iframe{
+    width:100%;
+    height:auto;
+    display: block;
+    aspect-ratio: 16/9;
+ }
+/* tablet size  max width 768 px*/
+
+@media (max-width:768px){
+.nav-list{
+    flex-direction: column;
+
+    height:auto;
+}
+ nav{
+    position: relative;
+    height:auto;
+
+ }
+
+ h1{
+    font-size:2rem;
+    padding-left:0;
+ }
+ h2{
+    font-size:1.5rem;
+    padding-left:0;
+    
+    
+ }
+
+ p{ font-size:1rem;}
+
+ .container,
+ .containermenu,
+ .whatsonContainer {
+    flex-direction:column;
+    align-items:center;
+ }
+.detailscontainer{
+    margin-left:10px;
+    margin-right:10px;
+}
+
+button{
+    width:100%;
+    max-width:300px;
+}
+
+.eventContainner{
+    width:100%;
+    padding:20px;
+
+}
+.containermenusection{
+    width: 80%;
+    max-width: 400px;
+}
+}
+
+/* size for phones max width 480px*/
+
+@media (max-width:480px){
+
+    h1{
+        font-size:1.6rem;
+
+    }
+
+    h2{
+        font-size:1.2rem;
+    }
+
+    .nav-list a{
+        font-size:1rem;
+        padding:8px;
+    }
+    .imageText{
+    bottom: -30px;
+    }
+
+    
+ .container,
+ .containermenu,
+ .whatsonContainer {
+    flex-direction:column;
+    align-items:center;
+ }
+.detailscontainer{
+    margin-left:10px;
+    margin-right:10px;
+}
+ .containermenu{
+    max-width: 80%;
+    flex-wrap: wrap;
+    margin:0 auto;
+ }
+ .menupanel{
+    flex-direction: column;
+ }
+button{
+    width:100%;
+    max-width:300px;
+}
+
+.eventContainer{
+    width:100%;
+}
+.contianerColumn{
+    align-items: center;
+    flex-direction:column;
+
+   
+}
+
+
+
+#sideImage{
+    width:100%;
+   
+
+}
+.container{
+
+flex-direction:column;
+align-items:center;
+flex-wrap: wrap;
+width: 80%;
+ 
+}
+
+#sideImage{
+
+width :100%;
+}
+
+
+  .container p{
+        width: 100%;           
+        max-width: 500px;     
+    }
+p{ text-align: center;
+    padding:5px;}
+
+.imagecontainer{
+ width:auto;
+ object-fit: contain;
+}
+
+body{
+      overflow-x: hidden;   
+}
+#coffeevideo{
+    width:400px;
+}
+
+.videoWrapper{
+    max-width:90%;
+}
+}
+
+
+
+
+/*hex codes for colour scheme 
+yellow:#D9A441
+orange:#C46A4A
+green:#8A9B68
+white:#E8DCC2
+brown/black:#4B3A2F
+*/
+
+
+/* light green #606C38
+    dark green #283618
+    cream #FEFAE0
+    ligh brown #DDA15E
+    orange #BC6C25
+    */
+p{
+    font-size: 1.2rem;
+    line-height: 1.6;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E8DCC2;
+    padding-bottom: 20px;
+    text-align: center;
+
+    
+    
+}
+ h1{
+    
+   
+    font-size: 3rem;
+    font-weight: bold;
+    color:
+    #4B3A2F;
+
+   text-align: center;
+    
+    /*import montserrat from google fonts*/
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color:#4B3A2F;
+   align-items: center;
+   text-align: center;
+}
+
+/*navigation layout*/
+
+nav{
+    min-height:100px;
+
+    
+    color:#E8DCC2;
+    
+    background-color:#8A9B68;
+    justify-content: center;
+    
+   
+    
+   
+
+}
+ul li a {
+  
+  
+  
+  text-decoration: none;
+  justify-content: center;
+}
+
+
+
+.nav-list{
+    
+    list-style:none;
+    display: flex;
+    gap:20px;
+    padding:0;
+    align-items: center;
+    justify-content: center;
+  
+    
+
+}
+
+.nav-list a{
+    color: #E8DCC2;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-list a:hover{
+    background-color: #8A9B68;
+    color:#E8DCC2;
+
+}
+
+
+
+/*Dropdown menu (hidden by default) */
+
+
+
+
+/*this class is toggled by javascript*/
+
+
+
+.imagecontainer{
+
+    display:flex;
+   min-height:300px;
+   width :auto;
+     
+     background-size:cover;
+     background-position: center;
+     align-items: center;
+     flex-direction: column;
+     
+     
+}
+ 
+.containermenu{
+
+    display:flex;
+height:auto;
+    width: auto;
+    gap:50px;
+    padding-bottom: 50px;
+    flex-direction:row;
+    align-items: flex-start;
+    row-gap: 50px;
+   
+    justify-content: center;
+    
+}
+.menupanel{
+    display:flex;
+   
+    background-color: #8A9B68;
+    padding-right :15px;
+    max-width:900px;
+    width:100%;
+    height:auto;
+    padding-left:15px;
+}
+
+.containermenusection{
+
+    font-size: large;
+    display: flex;
+    height:auto;
+     max-width:400px;
+     width:100%;
+     margin:0 auto;
+   
+   
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+
+}
+
+
+
+.container{
+
+    display:flex;
+     min-height:600px;
+    width: auto;
+  
+    padding-bottom: 50px;
+    flex-direction:row;
+    align-items: center;
+    gap:20px
+    
+
+}
+
+.contianerColumn{
+    display:flex;
+   min-height:600px; 
+    width: auto;
+    flex-wrap: nowrap;
+    padding-bottom: 50px;
+    flex-direction: column;
+        align-items: center;
+
+}
+
+
+#fairtradecontainer{
+    
+
+      display:flex;
+   min-height:75px;
+
+     
+     object-fit:cover;
+     
+     flex-direction: row;
+        align-items: center;
+        text-align: center;
+        
+     
+
+}
+
+.coffeeBean{
+
+    max-height:75px;
+    height:auto;
+    width:auto;
+
+}
+
+.sideimage{
+
+    height:auto;
+    max-width:100%;
+    object-fit: contain;
+}
+
+
+.longcontainer{
+    display:flex;
+    min-height:900px;
+    height:auto;
+    width: auto;
+    flex-wrap: nowrap;
+    padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    border-top: 2px solid black;
+    padding:none;
+}
+
+
+
+
+/**form css**/
+form{
+ background-color:#8A9B68 ;
+  max-width:900px;
+  height:auto;
+    margin:50px auto;
+    
+    padding:20px;
+     display:flex;
+    flex-direction:column;
+    
+    
+}
+input{
+    padding:20px;
+    margin-bottom: 20px;
+    
+    
+    
+    
+}
+
+label{
+    padding:20px;
+    
+}
+.formcontainer{
+    
+    padding-right: 20px;
+   
+    
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  
+    
+
+}
+
+
+
+
+
+
+      
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbarLogo{
+    margin-left: auto;
+    display:flex;
+    align-items: center;
+    padding-left: 20px;
+    align-content: center;
+}
+
+.navbarLogo img{
+    height: 100px;
+
+    width: auto;
+    object-fit: contain;
+}
+
+
+.sideImage{
+    height: 250px;
+    width: auto;
+    object-fit: contain;
+    margin-right: 20px;
+}
+
+
+.whatsonContainer{
+    display:flex;
+    height:auto;
+    width: auto;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding:20;
+    gap: 20px;
+
+
+}
+
+
+.eventContainer{
+
+    display:flex;
+    
+    min-height: 750px;
+    height: auto;
+    width: 400px;
+    max-width:100%;
+    flex-wrap: nowrap;
+    padding-bottom: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #8A9B68;
+
+  
+    border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+           transition: background-color 0.3s ease;
+
+}
+
+.eventContainer:hover{
+    background-color: #728253;
+}
+
+.eventContainerImg{
+    height: 200px;
+    width: auto;
+    object-fit: contain;
+}
+
+.detailscontainer{
+    display:flex;
+    flex-direction: column;
+font-size: 1.5rem;
+min-height:400px;
+height:auto;
+width: auto;
+margin-left: 40px;
+margin-right: 40px;
+color:#E8DCC2;
+align-content: center;
+
+background-color:#8A9B68;
+}
+
+button{
+    height: 50px;
+    max-width: 200px;
+    width:auto;
+    color:#4B3A2F;
+    background-color: #FEFAE0;
+    align-self: center;
+    border-radius: 8px;
+     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+}
+
+
+#coffeeVideo{
+
+    
+    
+    padding:20px;
+}
+
+ul{
+    margin:0;
+}
